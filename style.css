@@ -1,13 +1,16 @@
+/* Header logo sizing */
 #logo-img {
     width: 118.4px;
 }
 
+/* Base page colors */
 body {
     margin: 0;
     background-color: #000;
     color: #fff;
 }
 
+/* Top bar layout */
 .top-bar {
     padding: 20px 40px;
     position: absolute;
@@ -18,12 +21,14 @@ body {
     z-index: 3;
 }
 
+/* Header content alignment */
 .header-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+/* Legacy banner background (unused if nav handles hero) */
 .banner-wrap {
     background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/73334647-ad51-42a9-b07b-93298cc2a8e1/2b0fca4f-c15c-4622-9efc-572c4a408c30/IN-en-20230605-popsignuptwoweeks-perspective_alpha_website_large.jpg");
     background-size: cover;
@@ -35,6 +40,7 @@ body {
 
 
 
+/* Sign-in button */
 .sign-in-btn{
     display: inline-block;
     background-color: rgb(229, 9, 29);
@@ -44,6 +50,7 @@ body {
     border-radius: 4px;
 }
 
+/* Email capture form */
 .get-started-form {
     display: flex;
     align-items: center;
@@ -52,6 +59,7 @@ body {
     max-width: 590px;
 }
 
+/* Email input styling */
 .get-started-form input {
     flex: 1;
     min-width: 260px;
@@ -69,6 +77,7 @@ body {
     color: #b3b3b3;
 }
 
+/* Primary CTA button */
 #email-button,
 .email-button,
 .get-started-form button {
@@ -106,6 +115,7 @@ body {
     display: block;
 }
 
+/* Utility sizing for inputs/buttons */
 .text,
 .get-started-form .text {
     height: 56px;
@@ -125,6 +135,7 @@ body {
 }
 
 
+/* Hero background and layout */
 nav{
     min-height: 85vh;
     display: flex;
@@ -143,6 +154,7 @@ nav{
     overflow: hidden;
 }
 
+/* Hero divider glow */
 nav::after {
     content: "";
     position: absolute;
@@ -159,6 +171,7 @@ nav::after {
     z-index: 2;
 }
 
+/* Hero headline */
 .hero h1{
     text-align: center;
     box-sizing: border-box;
@@ -174,6 +187,7 @@ nav::after {
     width: 508px;
 }
 
+/* Hero subhead */
 .hero h3{
     box-sizing: border-box;
     display: block;
@@ -189,6 +203,7 @@ nav::after {
     width: 508px;
 }
 
+/* Hero body copy */
 .hero p{
     box-sizing: border-box;
     display: block;
@@ -205,6 +220,7 @@ nav::after {
 }
 
 
+/* Hero container */
 .hero{
     display: flex;
     flex-direction: column;
@@ -213,6 +229,7 @@ nav::after {
 }
 
 
+/* Poster image styling (legacy size) */
 .movie-img{
     background-size: cover;
     border-bottom-left-radius: 8px;
@@ -263,6 +280,7 @@ nav::after {
     z-index: 2;
 }
 
+/* Movie card (legacy size) */
 .movie {
     position: relative;
     display: inline-block;
@@ -270,6 +288,7 @@ nav::after {
     height: 156.8px;
 }
 
+/* Movie rank number */
 .movie span{
     color: #0a0a0a;
     font-size: 122px;
@@ -285,6 +304,7 @@ nav::after {
 }
 
 
+/* Trending row base layout (legacy size) */
 #trending-now{
     box-sizing: border-box;
     color: rgb(255, 255, 255);
@@ -301,10 +321,12 @@ nav::after {
     width: 663.2px;
 }
 
+/* Trending heading wrapper (legacy size) */
 .trending-heading-wrap {
     width: 663.2px;
 }
 
+/* Trending heading (legacy size) */
 .trending-heading {
     box-sizing: border-box;
     color: rgb(255, 255, 255);
@@ -330,6 +352,7 @@ nav::after {
     width: 663.2px;
 }
 
+/* Main content area */
 main {
     position: relative;
     padding-top: 80px;
@@ -342,6 +365,7 @@ main::before {
 }
 
 
+/* Email form intro copy */
 .email-form-title {
     box-sizing: border-box;
     color: rgb(255, 255, 255);
@@ -353,11 +377,13 @@ main::before {
 }
 
 
+/* Trending controls wrapper (legacy size) */
 .trending-controls {
     margin-top: 12px;
     width: 663.2px;
 }
 
+/* Scroll button base (legacy) */
 .scroll-movies-btn {
     background: #e50914;
     border: 0;
@@ -379,20 +405,24 @@ main::before {
     margin: 0 auto 28px;
 }
 
+/* Trending heading wrapper (polished) */
 .trending-heading-wrap {
     width: 100%;
     margin-bottom: 22px;
 }
 
+/* Trending heading (polished) */
 .trending-heading {
     width: auto;
     font-size: 24px;
 }
 
+/* Trending carousel container */
 .trending-carousel {
     position: relative;
 }
 
+/* Trending row (polished) */
 #trending-now {
     width: 100%;
     margin-top: 0;
@@ -413,6 +443,7 @@ main::before {
     flex: 0 0 auto;
 }
 
+/* Scroll button (polished) */
 .scroll-movies-btn {
     position: absolute;
     right: 8px;
@@ -450,6 +481,7 @@ main::before {
     overflow: visible;
 }
 
+/* Poster image (polished) */
 .movie-img {
     width: 190px;
     height: 270px;
@@ -464,23 +496,27 @@ main::before {
     border-radius: 12px;
 }
 
+/* Poster link */
 .movie-link {
     display: block;
     width: 100%;
     height: 100%;
 }
 
+/* Keyboard focus for posters */
 .movie-link:focus-visible {
     outline: 2px solid #fff;
     outline-offset: 3px;
     border-radius: 12px;
 }
 
+/* Trailer panel list */
 .trailer-panels {
     width: min(92vw, 1500px);
     margin: 0 auto 28px;
 }
 
+/* Individual trailer panel */
 .trailer-panel {
     display: none;
     background: #111;
@@ -489,10 +525,12 @@ main::before {
     padding: 18px;
 }
 
+/* Show panel when targeted */
 .trailer-panel:target {
     display: block;
 }
 
+/* Trailer header layout */
 .trailer-panel-header {
     display: flex;
     align-items: center;
@@ -504,11 +542,13 @@ main::before {
     margin: 0;
 }
 
+/* Trailer close link */
 .trailer-close {
     color: #fff;
     text-decoration: underline;
 }
 
+/* Trailer video sizing */
 .trailer-panel video {
     width: min(100%, 900px);
     display: block;
@@ -516,6 +556,7 @@ main::before {
     background: #000;
 }
 
+/* Section titles */
 .reasons-title,
 .reasons h2 {
     font-size: 24px;
@@ -523,39 +564,46 @@ main::before {
 
 
 
+/* Left scroll button placement */
 .scroll-movies-btn--left {
     left: 8px;
     right: auto;
 }
 
+/* Right scroll button placement */
 .scroll-movies-btn--right {
     right: 8px;
     left: auto;
 }
 
-/* FOOTER STYLES */
+/* Footer styles */
 .footer {
     background: black;
 }
 
+/* Footer container */
 .footer-items {
     margin: 0 47.5px;
     padding: 70px 45px;
 }
 
+/* Footer top row */
 .footer-top {
     margin-bottom: 30px;
 }
 
+/* Footer text */
 .footer ul li, .questions-title {
     color: #757575;
 }
 
+/* Footer link list items */
 .footer-links li {
     font-size: 13px;
     line-height: 2;
 }
 
+/* Footer links */
 .footer-links a {
     color: #757575;
     text-decoration: none;
@@ -575,12 +623,14 @@ main::before {
     cursor: pointer;
 }
 
+/* Footer link columns */
 .footer-links {
     list-style-type: none;
     columns: 4;
     padding: 0;
 }
 
+/* Language selector container */
 .language {
     height: 53px;
     width: 142px;
@@ -593,18 +643,22 @@ main::before {
     margin-top: 30px;
 }
 
+/* Language icon */
 .language-icon {
     width: 18px;
     height: 18px;
     display: block;
+    filter: brightness(0) invert(1);
 }
 
+/* Footer meta text */
 .copyright,
 .learn-more {
     margin: 0 47.5px;
     padding: 0 45px;
 }
 
+/* Language select */
 .language select {
     margin-left: 10px;
     border: none;
@@ -613,6 +667,7 @@ main::before {
     color: #999999;
 }
 
+/* "More reasons to join" title */
 .more {
     width: min(92vw, 1500px);
     margin: 0 auto 16px;
@@ -624,69 +679,243 @@ main::before {
 }
 
 
+/* Reasons grid */
 .more-reasons-to-join {
     width: min(92vw, 1500px);
     margin: 0 auto 28px;
     display: flex;
     flex-wrap: nowrap;
     gap: 16px;
-    overflow-x: auto;
+    overflow: visible;
 }
 
+/* Reason card */
 .more-reasons-to-join article {
     box-sizing: border-box;
     color: #fff;
     display: block;
     font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
-    height: 190px;
+    height: 350px;
     pointer-events: auto;
     position: relative;
     text-size-adjust: 100%;
     unicode-bidi: isolate;
-    width: 260px;
-    min-width: 260px;
+    width: calc(25% - 12px);
+    min-width: 0;
     background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
     border-radius: 12px;
     padding: 20px;
 }
 
+/* Reason card title */
 .more-reasons-to-join article h2 {
     margin: 0 0 10px;
+}
+
+/* Reason card copy */
+.more-reasons-to-join article p {
+    margin: 0;
+    color: #cbd5f5;
+}
+
+/* Reason card icon */
+.more-reasons-to-join .reason-icon {
+    position: absolute;
+    right: 18px;
+    bottom: 18px;
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
 }
     
 
 
 
 
+/* FAQ section */
 .faq {
     width: min(92vw, 1500px);
     margin: 0 auto 28px;
     
 }
 
+/* FAQ heading */
 .faq h2 {
     margin: 0 0 16px;
 }
 
+/* FAQ item container */
 .faq details {
-    margin-bottom: 10px;
+    margin: 0;
+    background-color: rgb(45, 45, 45);
+    border-radius: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 92vw;
+    color: rgb(255, 255, 255);
 }
 
+/* FAQ item spacing */
+.faq details + details {
+    margin-top: 10px;
+}
+
+/* FAQ summary row */
+.faq summary {
+    align-items: center;
+    appearance: none;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(255, 255, 255);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgb(255, 255, 255);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: rgb(255, 255, 255);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-style: none;
+    border-top-width: 0px;
+    box-sizing: content-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: flex;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-size-adjust: none;
+    font-stretch: 100%;
+    font-style: normal;
+    font-variant-alternates: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-emoji: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-position: normal;
+    font-variation-settings: normal;
+    font-weight: 400;
+    height: 24px;
+    justify-content: space-between;
+    letter-spacing: normal;
+    line-height: normal;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 1;
+    overflow-x: visible;
+    overflow-y: visible;
+    padding-block-end: 24px;
+    padding-block-start: 24px;
+    padding-bottom: 24px;
+    padding-inline-end: 24px;
+    padding-inline-start: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 24px;
+    pointer-events: auto;
+    text-align: left;
+    text-decoration-color: rgb(255, 255, 255);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    text-indent: 0px;
+    text-rendering: auto;
+    text-shadow: none;
+    text-size-adjust: 100%;
+    text-transform: none;
+    width: 100%;
+    word-spacing: 0px;
+    -webkit-box-align: center;
+    -webkit-box-pack: justify;
+    -webkit-border-image: none;
+}
+
+/* Remove default summary marker */
+.faq summary::-webkit-details-marker {
+    display: none;
+}
+
+/* FAQ open state */
+.faq details[open] {
+    padding: 0 24px 18px;
+}
+
+/* FAQ open summary spacing */
+.faq details[open] summary {
+    margin-bottom: 12px;
+}
+
+/* FAQ body text */
+.faq details p {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: inline;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    height: auto;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    pointer-events: auto;
+    text-align: left;
+    text-indent: 0px;
+    text-size-adjust: 100%;
+    visibility: visible;
+    width: auto;
+}
+
+/* FAQ body paragraph spacing */
+.faq details p + p {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Ready-to-watch section */
 .ready-to-watch {
     width: min(92vw, 1500px);
     margin: 0 auto 28px;
     text-align: center;
 }
 
+/* Ready-to-watch copy */
 .ready-to-watch p {
     margin: 0 0 16px;
 }
 
+/* Ready-to-watch form layout */
 .ready-to-watch form {
     display: flex;
     justify-content: center;
 }
 
+/* Feature block with TV */
 .info-container {
     background: black;
     color: white;
@@ -695,6 +924,7 @@ main::before {
 }
 
 
+/* Feature text container */
 .info {
     display: flex;
     flex-direction: column;
@@ -702,6 +932,7 @@ main::before {
     justify-content: center;
 }
 
+/* TV image and video */
 .tv-container {
     position: relative;
     display: flex;
@@ -709,10 +940,12 @@ main::before {
     align-items: center;
 }
 
+/* TV image layer */
 .tv-container img {
     z-index: 1;
 }
 
+/* TV video layer */
 .tv-container video {
     position: absolute;
 }
