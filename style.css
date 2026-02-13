@@ -956,11 +956,3 @@ main::before {
     position: absolute;
 }
 
-
-
-
-
-.hero h3 {
-    font-weight: 700;
-    /* Other styles present in the rule */
-}
